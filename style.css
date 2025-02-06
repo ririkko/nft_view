@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#qr-reader {
+    margin: 20px auto;
+}
+
+#nft-display {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 中央配置 */
+    justify-content: center;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px; /* 最大幅 */
+    margin: 30px auto;
+}
+
+#nft-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+#nft-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#nft-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    word-wrap: break-word;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
